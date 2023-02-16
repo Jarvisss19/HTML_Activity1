@@ -1,0 +1,16 @@
+package Oggy_05;
+
+public class Oggy_05_Discussion {
+	
+    int x;
+   
+	public Oggy_05_Discussion() {
+		
+	}
+	
+		public static void main(String[] args) {
+			Oggy_05_Discussion obj = new Oggy_05_Discussion();
+			
+			System.out.println(obj.x);
+		}
+}

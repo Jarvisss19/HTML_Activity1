@@ -1,0 +1,15 @@
+package jan_2;
+
+public class jan_14 {								//any class name//
+	    
+	static void method01() {
+		System.out.println("NALANG");
+	}
+	
+	public static void main(String[] args) { 		//use this to create methodd.//
+		jan_14_class_01 obj = new jan_14_class_01();
+		
+		obj.Method02(); 							// to call method.//
+		method01();
+	}
+}

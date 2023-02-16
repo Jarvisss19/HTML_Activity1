@@ -1,0 +1,37 @@
+package Oggy_05;
+
+import java.util.Scanner;
+
+public class Oggy_05_Discussion {
+	
+	static String named, addressed;
+	static int aged;
+
+	public Oggy_05_Discussion(String name, String Address, int age) {
+		Scanner sc = new Scanner(System.in);
+		
+				System.out.println("Name: ");
+				named = sc.next();
+				
+				System.out.println("Address: ");
+				addressed = sc.next();
+				
+				System.out.println("Address: ");
+				aged = sc.nextInt();
+				sc.close();
+		
+		named = name;
+		addressed = Address;
+		aged = age;
+	}
+	
+		public static void main(String[] args) {
+	
+		
+			
+			Oggy_05_Discussion obj = new Oggy_05_Discussion(named, addressed, aged);
+			
+		
+		
+		}
+}

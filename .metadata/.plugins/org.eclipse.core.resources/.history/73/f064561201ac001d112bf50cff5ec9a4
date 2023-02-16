@@ -1,0 +1,12 @@
+package jan_2;
+
+public class jan_14_class_01 {				
+	String Brand;
+	String Model;
+	int Year;
+	
+	public void Method02(String x, String y, int age) { 				
+		System.out.println("Idol nako si " + x + " shooter kaayu siya sa " +y+ " BASTA MAO NA TO ag" + age);
+	}
+
+}

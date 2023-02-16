@@ -1,0 +1,13 @@
+package Jan_discussion_6;
+
+public class Main_01 {
+	int x;
+	public Main_01(int y) {							
+	 x = y;	
+	}
+	
+    public static void main(String[] args) {
+		Main_01 obj = new Main_01(5);
+		System.out.println(obj.x);
+	}
+}

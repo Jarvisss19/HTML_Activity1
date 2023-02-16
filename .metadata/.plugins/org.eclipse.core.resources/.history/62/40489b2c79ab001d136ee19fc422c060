@@ -1,0 +1,9 @@
+package Oggy_01;
+
+public class Oggy_01_Class_01 {
+	
+	public void myMethod3(String x) {
+		
+		System.out.println("Wala Koy Ex: "+x);
+	}
+}

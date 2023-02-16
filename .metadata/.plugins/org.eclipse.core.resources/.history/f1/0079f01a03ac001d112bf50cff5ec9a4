@@ -1,0 +1,14 @@
+package jan_2;
+
+public class jan_14 {								
+	    
+
+	public static void main(String[] args) { 		
+		jan_14_class_01 obj = new jan_14_class_01();
+		obj.Method02(); 							
+
+		System.out.println("Hi!! " + obj.name );
+		System.out.println("Age : " + obj.age);
+		System.out.println("Address : " + obj.address);
+	}
+}

@@ -1,0 +1,14 @@
+package Oggy_01;
+
+import java.util.Scanner;
+
+public class Oggy_01_Class_01 {
+	
+	public void myMethod3(String name) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Name: ");
+		name = sc.next();
+		
+	}
+	
+}

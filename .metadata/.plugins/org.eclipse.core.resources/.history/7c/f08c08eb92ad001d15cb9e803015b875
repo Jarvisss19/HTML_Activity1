@@ -1,0 +1,23 @@
+package Jan_discussion_6;
+import java.util.Scanner;
+
+public class Main_01 {
+	Scanner ban = new Scanner(System.in);
+	static int x;
+	static String named;
+	
+	public Main_01(String name,int age) {	
+		age = 20;
+		name = "Jan";
+		
+		named = name;
+		x = age;
+	}
+	
+    public static void main(String[] args) {
+		Main_01 obj = new Main_01(named,x);
+		System.out.println("Ako deay si " + obj.named);
+		System.out.println("Akong edad kay " + obj.x); 
+		
+	}
+}

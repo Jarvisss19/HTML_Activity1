@@ -1,0 +1,24 @@
+package Oggy_05;
+
+public class Oggy_05_Discussion {
+	
+   
+	private static final String name = null;
+	private static String Address;
+	private static int age;
+
+	public Oggy_05_Discussion(String name, String Address, int age) {
+		name = "oggy";
+		Address = "Tinago";
+		age = 20;
+	
+		
+	}
+	
+		public static void main(String[] args) {
+	
+			Oggy_05_Discussion obj = new Oggy_05_Discussion(name, Address, age);
+			
+			
+		}
+}

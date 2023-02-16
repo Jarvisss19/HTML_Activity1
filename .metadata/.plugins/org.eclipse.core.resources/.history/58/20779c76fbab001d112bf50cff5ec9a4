@@ -1,0 +1,15 @@
+package jan_2;
+
+public class jan_14_class_01 {
+	String Brand;
+	String Model;
+	int Year;
+	
+	public void method01() {
+		System.out.println("HELLO WORLD");
+	}
+
+}
+
+
+	

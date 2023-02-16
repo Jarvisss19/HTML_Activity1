@@ -1,0 +1,27 @@
+package Oggy_05;
+
+public class Oggy_05_Discussion {
+	
+	static String named, addressed;
+	static int aged;
+
+	public Oggy_05_Discussion(String name, String Address, int age) {
+		name = "oggy";
+		Address = "Tinago";
+		age = 20;
+	
+		named = name;
+		addressed = Address;
+		aged = age;
+	}
+	
+		public static void main(String[] args) {
+	
+			Oggy_05_Discussion obj = new Oggy_05_Discussion(named, addressed, aged);
+			
+			System.out.println("Name: "+obj.named);
+			System.out.println("Address: "+obj.addressed);
+			System.out.println("Age: "+obj.aged);
+			
+		}
+}

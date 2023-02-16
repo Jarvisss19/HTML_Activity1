@@ -1,0 +1,17 @@
+package Oggy_05;
+
+public class Oggy_05_Discussion {
+	
+    int x;
+    int y;
+	public Oggy_05_Discussion() {
+		x = 5;
+		y = 10;
+	}
+	
+		public static void main(String[] args) {
+			Oggy_05_Discussion obj = new Oggy_05_Discussion();
+			
+			System.out.println((obj.x)+"\n"+(obj.y));
+		}
+}
